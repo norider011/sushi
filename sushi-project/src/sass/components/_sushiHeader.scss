@@ -1,0 +1,63 @@
+.l-header{
+    width: 100%;
+    min-width: 1440px;
+    padding: 20px 40px 5px;
+}
+.sushiHeader__inner{
+    display: flex;
+    justify-content: space-between;
+    position:relative;
+    &-leftLogo{
+        display:inline-block;
+        img{
+            height:74px;
+        }
+    }
+}
+.sushiHeader__inner-leftLogo::before{
+    content:"◯";
+    font-size: 83px;
+    top: -24px;
+    left: -5px;
+    position: absolute;
+    color: red;
+}
+.sushiHeader-title{
+    display: inline-block;
+    font-size: 31px;
+    font-weight: bold;
+    padding-left: 11px;
+    border-bottom: 3px solid black;
+}
+
+.sushiHeader__inner-right{
+    position:relative;
+    display:inline-block;
+    margin-right: 20px;
+}
+.sushiHeader__inner-rightList{
+    display: flex;
+    list-style: none;
+}
+.sushiHeader-item-child{
+    font-size:20px;
+    color:black;
+    margin-right:27px;
+    font-weight: bold;
+}
+.nav-subtitle{
+    display:block;
+    text-align: center;
+}
+.sushiHeader-item:first-child span{
+    padding-right:30px;
+}
+.sushiHeader-item:nth-child(2) span{
+    padding-right:40px;
+}
+.sushiHeader-item:nth-child(3) span{
+    padding-right:40px;
+}
+.sushiHeader-item:nth-child(4) span{
+    padding-right:10px;
+}

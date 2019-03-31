@@ -1,0 +1,26 @@
+.l-hero{
+    width: 1440px;
+    height: 100%;
+    padding: 0 30px;
+    margin: 0 auto;
+    position: relative;
+}
+.sushiHero-slider{
+    list-style:none;
+}
+.sushiHero-sliderImage{
+    height:80vh;
+	width:100%;
+    background-image: url(../images/sushi-3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+.sushiHero-slider_upperImage{
+    height: 100%;
+    width:96%;
+    border-radius: 10px;
+    position: absolute;
+    z-index: 5;
+    background: rgba(0,0,0,.5);
+}
