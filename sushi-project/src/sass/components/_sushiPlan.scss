@@ -4,8 +4,10 @@
     padding: 0 100px;
     margin: 0 auto;
     position: relative;
+    background-color: rgba(221,255,221, 0.5);
 }
 .sushiPlan-title{
+    padding-top:30px;
     margin-top: 100px;
     text-align: center;
     font-size:30px;
@@ -17,12 +19,17 @@
 .sushiPlan-inner{
     display: flex;
     justify-content: space-between;
-    margin-top: 50px;
+    margin: 50px 0;
 }    
 .sushiPlan-innerContent{
+    background-color: white;
     padding: 14px 30px 0;
     border: 1px solid;
     border-radius: 55px;
+}
+.plan-section-icon{
+    height:250px;
+    fill: yellow;
 }
 .plan-section-title{
     font-size:40px;
